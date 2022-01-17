@@ -1,6 +1,7 @@
 /* Set ALL HTML elements with border-box sizing */
 * {
  box-sizing: border-box;
+ text-align: center;
 }
 /* psuedo classes added for the button links to show a user their actions with the links*/
 a:link    { color: black;  }
@@ -47,4 +48,8 @@ background: #FFB6C1;
 section {
   margin: 25px 15px;
 padding: 25px 15px;
+}
+/* have bullets and numbers align center with text */
+li {
+  list-style-position: inside;
 }
