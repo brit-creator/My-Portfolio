@@ -1,7 +1,6 @@
 /* Set ALL HTML elements with border-box sizing */
 * {
  box-sizing: border-box;
- text-align: center;
 }
 /* psuedo classes added for the button links to show a user their actions with the links*/
 a:link    { color: black;  }
@@ -12,6 +11,9 @@ a:active  { color: red;  }
 header, h1, h2, h3, .align-center {
   text-align: center;
   font-size: 25px;
+}
+p, ul, ol {
+  text-align:center;
 }
 /* footer aligned right to style it's difference from the rest of the content*/
 footer {
@@ -52,4 +54,7 @@ padding: 25px 15px;
 /* have bullets and numbers align center with text */
 li {
   list-style-position: inside;
+}
+.article-header {
+  margin-top: 50px;
 }
